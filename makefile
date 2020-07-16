@@ -42,7 +42,7 @@ all : $(TARGET)
 clean :
 	$(RM) -r $(BIN_DIR) $(OBJ_DIR)
 
-# install the library, from this directory to environment paths
-install : 
+# install the library, from this directory to user environment path
+install : all
 	cp ${INC_DIR}/* /usr/local/include
 	cp ${BIN_DIR}/* /usr/local/lib
