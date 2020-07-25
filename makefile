@@ -20,7 +20,7 @@ BINARY:=${BIN_DIR}/capp.out
 # compiler flags
 CFLAGS=-Wall -O3 -I${INC_DIR}
 # linker flags, this will used to compile the binary
-LFLAGS=-lcapp
+LFLAGS=-L${LIB_DIR} -lcapp
 
 # rule to make the object directory
 ${OBJ_DIR} :
