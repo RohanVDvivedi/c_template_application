@@ -1,7 +1,7 @@
 # c_template_application
 A template for all of my c projects.
 
-### setup instructions
+## setup instructions
 
 **Download source code :**
  * `git clone https://github.com/RohanVDvivedi/c_template_application.git`
@@ -14,13 +14,13 @@ A template for all of my c projects.
  * `sudo make install`
  * ***Once you have installed from source, you may discard the build by*** `make clean`
 
-### using library
+## using library
  * add `-lcapp` linker flag, while compiling your application
  * do not forget to include appropriate public api headers as and when needed. this includes
    * `#include<capp.h>`
    * `#include<print_temp.h>`
 
-### unsetup instructions
+## unsetup instructions
 
 **Uninstall :**
  * `cd c_template_application`
