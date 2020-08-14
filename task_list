@@ -1,6 +1,0 @@
-* use Download directory in makefile, you may not always download to /usr/local
-* allow and copy only one file named same as the project to be copied from the /inc to download into the /include, this header file will actually define your api
-* build some hidden headers and source for this purpose
-* since now you know what you coly to download directory, build an uninstall dependency aswell
-* write appropriate make file
-* dot this for all your c systems programming projects
