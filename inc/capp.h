@@ -10,6 +10,6 @@ struct temp
 	char str[30];
 };
 
-void print_temp_test(temp t);
+void init_temp(temp* t, int s, char* str);
 
 #endif

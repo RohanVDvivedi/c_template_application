@@ -2,9 +2,12 @@
 #include<stdlib.h>
 
 #include<capp.h>
+#include<print_temp.h>
 
 int main()
 {
-	print_temp_test(((temp){.s=20, .str="Hello World!!"}));
+	temp t;
+	init_temp(&t, 20, "Hello World!!");
+	print_temp_test(t);
 	return 0;
 }
