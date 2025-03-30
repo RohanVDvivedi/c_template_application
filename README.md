@@ -17,8 +17,8 @@ A template for all of my c projects.
 ## Using The library
  * add `-lcapp` linker flag, while compiling your application
  * do not forget to include appropriate public api headers as and when needed. this includes
-   * `#include<capp.h>`
-   * `#include<print_temp.h>`
+   * `#include<capp/capp.h>`
+   * `#include<capp/print_temp.h>`
 
 ## Instructions for uninstalling library
 

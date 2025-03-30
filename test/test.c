@@ -1,5 +1,5 @@
-#include<capp.h>
-#include<print_temp.h>
+#include<capp/capp.h>
+#include<capp/print_temp.h>
 
 int main()
 {
